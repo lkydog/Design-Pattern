@@ -60,7 +60,7 @@ public class Singleton {
     /**
      * 4.双重校验锁：延迟加载+线程安全【推荐】
      */
-    private static Singleton instance4;
+    private static volatile Singleton instance4;
 
     public static Singleton getInstance4() {
         if (instance4 == null) {

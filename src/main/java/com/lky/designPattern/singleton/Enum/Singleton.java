@@ -8,5 +8,7 @@ package com.lky.designPattern.singleton.Enum;
  */
 public enum Singleton {
     INSTANCE;
-    public void whateverMethod(){}
+    public void whateverMethod(){
+        System.out.println("单例模式实现的最佳方式");
+    }
 }
