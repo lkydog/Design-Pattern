@@ -9,6 +9,10 @@ import java.util.Map;
 /**
  * @author Created by njy on 2023/5/25
  * 视频策略环境类（策略Bean的工厂）
+ * 在初始化VideoContext对象时，将所有策略实现类塞进Map中，
+ * key为视频类型（dy、ks、wx） value为对应的视频实现类
+ * 通过getVideoStrategy方法，根据videoType从map中渠道对应的视频策略
+ * 从而隐藏了策略的具体实现逻辑。这种方式可以遵循开闭原则，因为在新增视频类型时，只需要增加对应的实现类
  */
 @Component
 public class VideoContext {
