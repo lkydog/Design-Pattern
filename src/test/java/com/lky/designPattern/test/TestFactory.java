@@ -23,7 +23,7 @@ public class TestFactory {
     void traditonal(){
         SaleBaoZi saleBaoZi=new SaleBaoZi();
         //以猪肉包为例
-        saleBaoZi.sale("pork");
+        saleBaoZi.createBaoZi("pork");
     }
 
     //2.简单工厂模式
