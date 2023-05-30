@@ -24,8 +24,9 @@ public class ProxyImpl implements Landlord1Service {
      */
     @Override
     public String rent(Integer money) {
+        System.out.println("[静态代理]好嘞，我去接您");
         String rent = target.rent(money);
-        System.out.println("[静态代理]这个房子很不错哦");
+        System.out.println("[静态代理]这个房子真的很不错呦");
         return rent;
     }
 }

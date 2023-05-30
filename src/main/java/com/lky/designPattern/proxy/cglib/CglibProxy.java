@@ -39,9 +39,9 @@ public class CglibProxy implements MethodInterceptor {
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-
+        System.out.println("[Cglib代理]好嘞，我去接您");
         Object returnValue = method.invoke(target, objects);
-        System.out.println("[Cglib代理]小伙，这个房子很不错呦！");
+        System.out.println("[Cglib代理]这个房子真的很不错呦！");
         return returnValue;
     }
 }
