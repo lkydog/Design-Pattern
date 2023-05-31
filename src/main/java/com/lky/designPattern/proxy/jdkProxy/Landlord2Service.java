@@ -10,5 +10,5 @@ public interface Landlord2Service {
      * @param money
      * @return
      */
-    String rent(Integer money);
+    void rent(Integer money);
 }

@@ -8,8 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Tenant2Impl implements Landlord2Service {
     @Override
-    public String rent(Integer money) {
-        System.out.println("小张你好，房子一月"+money+"元");
-        return "成交";
+    public void rent(Integer money) {
+        System.out.println("tenant2租下"+money+"元一个月的房子");
     }
 }

@@ -13,8 +13,7 @@ public class Landlord3Service {
      * @param money
      * @return
      */
-    public String rent(Integer money){
-        System.out.println("小刚你好，房子一月"+money+"元");
-        return "我再考虑考虑";
+    public void rent(Integer money){
+        System.out.println("租下"+money+"元一个月的房子");
     }
 }

@@ -40,35 +40,27 @@ public class TestProxy {
     //1.静态代理，对象只能实现一个接口
     @Test
     void TestStatic(){
-
-        String rent = tenant.rent(1000);
-        System.out.println("rent = " + rent);
+        tenant.rent(1000);
         System.out.println();
-        String rent1 = proxy.rent(2000);
-        System.out.println("rent1 = " + rent1);
+        proxy.rent(2000);
     }
 
     //2.JDK动态代理,对象可以实现一个或多个接口
     @Test
     void TestJDK(){
         Landlord2Service proxyInstance1 = (Landlord2Service) new JDKProxy(teant1).getProxyInstance();
-        String rent1 = proxyInstance1.rent(500);
-        System.out.println("rent1 = " + rent1);
+        proxyInstance1.rent(2500);
+
         System.out.println();
         Landlord2Service proxyInstance2 = (Landlord2Service) new JDKProxy(tenant2).getProxyInstance();
-        String rent2 = proxyInstance2.rent(2500);
-        System.out.println("rent2 = " + rent2);
-
-
-
+        proxyInstance2.rent(2500);
     }
 
     //3.Cglib代理 没有实现接口
     @Test
     void TestCglib(){
         Landlord3Service proxyInstance = (Landlord3Service) new CglibProxy(landlord3Service).getProxyInstance();
-        String rent = proxyInstance.rent(3000);
-        System.out.println("rent = " + rent);
+        proxyInstance.rent(3000);
     }
 
 }

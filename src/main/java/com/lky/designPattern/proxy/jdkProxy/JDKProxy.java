@@ -26,10 +26,10 @@ public class JDKProxy {
                 //这里是要实现jdk代理InvocationHandler的接口，lambda表达式
                 (proxy,method,args)->{
                     //执行对象方法
-                    System.out.println("[JDK动态代理]好嘞，我去接您");
-                    Object returnValue=method.invoke(target,args);
-                    System.out.println("[JDK动态代理]小伙，这个房子很不错呦！");
-                    return returnValue;
+                    System.out.println("[JDK动态代理]交中介费");
+                    method.invoke(target,args);
+                    System.out.println("[JDK动态代理]中介负责维修管理");
+                    return null;
                 });
     }
 }
