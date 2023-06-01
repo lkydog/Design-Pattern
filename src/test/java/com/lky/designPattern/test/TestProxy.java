@@ -37,7 +37,7 @@ public class TestProxy {
     @Autowired
     private Landlord3Service landlord3Service;
 
-    //1.静态代理，对象只能实现一个接口
+    //1.静态代理
     @Test
     void TestStatic(){
         tenant.rent(1000);
@@ -45,7 +45,7 @@ public class TestProxy {
         proxy.rent(2000);
     }
 
-    //2.JDK动态代理,对象可以实现一个或多个接口
+    //2.JDK动态代理
     @Test
     void TestJDK(){
         Landlord2Service proxyInstance1 = (Landlord2Service) new JDKProxy(teant1).getProxyInstance();
@@ -56,7 +56,7 @@ public class TestProxy {
         proxyInstance2.rent(2500);
     }
 
-    //3.Cglib代理 没有实现接口
+    //3.Cglib代理
     @Test
     void TestCglib(){
         Landlord3Service proxyInstance = (Landlord3Service) new CglibProxy(landlord3Service).getProxyInstance();
