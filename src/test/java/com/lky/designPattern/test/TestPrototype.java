@@ -1,7 +1,6 @@
 package com.lky.designPattern.test;
 
 import com.lky.designPattern.prototype.HeroSkill;
-import com.lky.designPattern.prototype.HeroSkillImpl;
 import com.lky.designPattern.prototype.StealManFactory;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,7 +15,7 @@ public class TestPrototype {
     @Test
     void testPrototype(){
         //初始化英雄
-        HeroSkillImpl heroSkill=new HeroSkillImpl("盲僧","神龙摆尾");
+        HeroSkill heroSkill=new HeroSkill("盲僧","神龙摆尾");
         //初始化工厂类（塞拉斯）
         StealManFactory factory=new StealManFactory(heroSkill);
         //复制英雄技能
