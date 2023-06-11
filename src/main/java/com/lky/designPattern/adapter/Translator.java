@@ -2,7 +2,7 @@ package com.lky.designPattern.adapter;
 
 /**
  * @author Created by njy on 2023/6/8
- * 翻译类：有一个可以把汉语翻译成英语的方法
+ * 源对象(source）：充当翻译
  */
 public class Translator {
 

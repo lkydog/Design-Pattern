@@ -2,7 +2,7 @@ package com.lky.designPattern.adapter;
 
 /**
  * @author Created by njy on 2023/6/8
- * 目标接口
+ * 目标接口(target)
  */
 public interface Target {
 

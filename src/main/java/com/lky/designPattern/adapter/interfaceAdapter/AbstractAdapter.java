@@ -1,17 +1,14 @@
-package com.lky.designPattern.adapter;
+package com.lky.designPattern.adapter.interfaceAdapter;
+
+import com.lky.designPattern.adapter.Translator;
 
 /**
  * @author Created by njy on 2023/6/8
- * 适配器：我们需要将`Translator`对象的接口转换成`Target`接口，
- * 以便客户端可以使用`Target`接口定义的方法。
+ * AdapterTranslate抽象类
  */
-public class Adapter implements Target{
+public abstract class AbstractAdapter implements target2 {
 
-    private Translator translator;
-
-    public Adapter(Translator translator){
-        this.translator=translator;
-    }
+    private Translator translator=new Translator();
 
     @Override
     public void translate(String source, String target, String words) {
@@ -22,5 +19,10 @@ public class Adapter implements Target{
             //英--》汉
             translator.translateInZh(words);
         }
+    }
+
+    @Override
+    public void a() {
+
     }
 }
