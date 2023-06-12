@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Created by njy on 2023/5/28
- * 工厂模式
+ * 工厂模式测试类
  */
 @SpringBootTest
 public class TestFactory {

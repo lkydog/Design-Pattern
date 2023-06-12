@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Created by njy on 2023/6/7
- * 原型模式
+ * 原型模式测试类
  */
 @SpringBootTest
 public class TestPrototype {

@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Created by njy on 2023/6/1
- * 观察者模式
+ * 观察者模式测试类
  */
 @SpringBootTest
 public class TestObserver {

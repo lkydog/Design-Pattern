@@ -1,9 +1,6 @@
 package com.lky.designPattern.test;
 
 import com.lky.designPattern.adapter.classAdapter.ClassAdapter;
-import com.lky.designPattern.adapter.interfaceAdapter.AbstractAdapter;
-import com.lky.designPattern.adapter.Target;
-import com.lky.designPattern.adapter.Translator;
 import com.lky.designPattern.adapter.interfaceAdapter.InterfaceAdapter;
 import com.lky.designPattern.adapter.objectAdapter.ObjectAdapter;
 import org.junit.jupiter.api.Test;
@@ -11,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Created by njy on 2023/6/8
+ * 适配器模式测试类
  */
 @SpringBootTest
 public class TestAdapter {

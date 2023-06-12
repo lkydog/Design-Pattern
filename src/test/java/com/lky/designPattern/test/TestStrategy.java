@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * @author njy
  * @date 2023/5/24 13:58
- * 策略模式
+ * 策略模式测试类
  */
 @SpringBootTest
 public class TestStrategy {

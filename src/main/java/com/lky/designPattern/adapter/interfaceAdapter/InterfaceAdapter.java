@@ -1,7 +1,5 @@
 package com.lky.designPattern.adapter.interfaceAdapter;
 
-import com.lky.designPattern.adapter.Translator;
-
 /**
  * @author Created by njy on 2023/6/11
  * 接口适配器：当不需要全部实现接口方法时。

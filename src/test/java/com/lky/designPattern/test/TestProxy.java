@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Created by njy on 2023/5/30
- * 代理模式
+ * 代理模式测试类
  */
 @SpringBootTest
 @RequiredArgsConstructor

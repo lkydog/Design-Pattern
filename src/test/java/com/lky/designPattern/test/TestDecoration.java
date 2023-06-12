@@ -6,6 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Created by njy on 2023/6/5
+ * 装饰者模式测试类
  */
 @SpringBootTest
 public class TestDecoration {
