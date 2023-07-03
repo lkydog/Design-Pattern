@@ -1,6 +1,5 @@
 package com.lky.designPattern.factory.abstractFactory;
 
-import com.lky.designPattern.factory.common.Cake;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

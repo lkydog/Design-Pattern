@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
  * @author Created by njy on 2023/5/26
  * 酸菜包
  */
-@Data
+
 @AllArgsConstructor
 @NoArgsConstructor
 public class SuanCaiBaoZi implements BaoZi {

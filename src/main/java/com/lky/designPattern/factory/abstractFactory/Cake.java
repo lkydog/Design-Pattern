@@ -1,4 +1,4 @@
-package com.lky.designPattern.factory.common;
+package com.lky.designPattern.factory.abstractFactory;
 
 /**
  * @author Created by njy on 2023/5/28

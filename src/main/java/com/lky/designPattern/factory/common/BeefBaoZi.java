@@ -2,11 +2,12 @@ package com.lky.designPattern.factory.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author Created by njy on 2023/5/28
  */
-@Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class BeefBaoZi implements BaoZi{
 

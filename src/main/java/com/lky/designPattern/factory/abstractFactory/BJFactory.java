@@ -1,8 +1,6 @@
 package com.lky.designPattern.factory.abstractFactory;
 
 import com.lky.designPattern.factory.common.BaoZi;
-import com.lky.designPattern.factory.common.BeefBaoZi;
-import com.lky.designPattern.factory.common.Cake;
 
 /**
  * @author Created by njy on 2023/5/28

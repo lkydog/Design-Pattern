@@ -4,7 +4,7 @@ import com.lky.designPattern.factory.a_traditional.SaleBaoZi;
 import com.lky.designPattern.factory.abstractFactory.AbstractFactory;
 import com.lky.designPattern.factory.abstractFactory.BJFactory;
 import com.lky.designPattern.factory.common.BaoZi;
-import com.lky.designPattern.factory.common.Cake;
+import com.lky.designPattern.factory.abstractFactory.Cake;
 import com.lky.designPattern.factory.methodFactory.MeAbstractFactory;
 import com.lky.designPattern.factory.methodFactory.PorkFactory;
 import com.lky.designPattern.factory.simpleFactory.SimpleFactory;

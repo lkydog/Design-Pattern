@@ -8,21 +8,6 @@ import com.lky.designPattern.factory.common.*;
  */
 public class SaleBaoZi {
 
-    //简单的售卖流程
-    public BaoZi createBaoZi() {
-        BaoZi baozi = new BaoZiImpl();
-        //准备材料
-        baozi.prepare();
-        //制作包子
-        baozi.make();
-        //蒸包子
-        baozi.braise();
-        //售卖
-        baozi.sale();
-
-        return baozi;
-    }
-
     /**
      * 包子肯定有不同的馅：酸菜、豆沙、猪肉，那么他的材料、售价等方式也不同
      * 我们可以直接在上述代码中，添加根据包子的不同种类生成不同的对象。
