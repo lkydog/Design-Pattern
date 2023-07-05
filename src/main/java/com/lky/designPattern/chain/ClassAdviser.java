@@ -2,7 +2,7 @@ package com.lky.designPattern.chain;
 
 /**
  * @author Created by njy on 2023/6/5
- * 班主任,请假天数2天内，班主任就可以审批
+ * 2.具体处理器：班主任,请假天数2天内，班主任就可以审批
  */
 public class ClassAdviser extends Approver{
 

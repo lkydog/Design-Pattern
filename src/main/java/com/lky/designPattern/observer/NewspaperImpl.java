@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author Created by njy on 2023/6/1
- * 报纸实现类
+ * 2.具体被观察者：报纸实现类
  */
 public class NewspaperImpl implements Newspaper{
 

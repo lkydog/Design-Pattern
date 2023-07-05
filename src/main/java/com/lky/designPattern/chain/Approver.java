@@ -2,7 +2,7 @@ package com.lky.designPattern.chain;
 
 /**
  * @author Created by njy on 2023/6/5
- * 审批者，包括班主任、年级组长和校长
+ * 1.抽象处理器：审批者，包括班主任、年级组长和校长
  */
 public abstract class Approver {
     String name;

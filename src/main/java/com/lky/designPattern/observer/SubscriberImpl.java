@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * @author Created by njy on 2023/6/1
- * 具体订阅者
+ * 4.具体观察者：具体订阅者
  */
 @Data
 @AllArgsConstructor

@@ -2,7 +2,7 @@ package com.lky.designPattern.chain;
 
 /**
  * @author Created by njy on 2023/6/5
- * 年级组长，请假天数2-7天，班主任处理不了，交给年级主任
+ * 2.具体处理器：年级组长，请假天数2-7天，班主任处理不了，交给年级主任
  */
 public class GradeLeader extends Approver {
 

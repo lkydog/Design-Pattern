@@ -4,7 +4,7 @@ package com.lky.designPattern.observer;
 
 /**
  * @author Created by njy on 2023/6/1
- * 报纸接口，即被观察者接口
+ * 1.抽象被观察者：报纸接口，即被观察者接口
  */
 public interface Newspaper {
     /**
