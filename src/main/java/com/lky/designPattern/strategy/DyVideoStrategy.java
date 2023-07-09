@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Created by njy on 2023/5/25
- * 抖音
+ * 3.具体策略类（Concrete Strategy）：抖音
  */
 @Component
 public class DyVideoStrategy implements VideoStrategy{
