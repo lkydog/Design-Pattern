@@ -152,7 +152,7 @@ ps：设计模式代表的是一种思想，至于怎么千变万化就看大家
 
 ## Project Structure（项目结构）
 
-![image-20230709220114445](C:/Users/lkydo/AppData/Roaming/Typora/typora-user-images/image-20230709220114445.png)
+![](https://github.com/lkydog/Design-Pattern/blob/main/image/structure.png)
 
 ## Source Code（源代码路径）
 
